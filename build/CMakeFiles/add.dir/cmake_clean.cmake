@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/add.dir/src/bubble.cpp.o"
-  "CMakeFiles/add.dir/src/bubble.cpp.o.d"
   "CMakeFiles/add.dir/src/main.cpp.o"
   "CMakeFiles/add.dir/src/main.cpp.o.d"
   "add"

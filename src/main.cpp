@@ -1,14 +1,27 @@
+#include <cstdlib>
 #include <vector>
 #include "sorts.h"
-#include <iostream>
+
 
 int main() {
-    std::cout << bubbleSort();
     std::vector<int> data = randomSet();
-    for (int i = 0; i < 50; i++) {
-        cout << data[i];
-        cout << "\n";
-    }
     
+    data = randomSet();
+
+    vector<int> sortedData = bubbleSort(data);
+
+    cout << "\n Unsorted: \n";
+
+    for (int i = 0; i < data.size(); i++) {
+        cout << data[i];
+        cout << ", ";
+    }
+
+    cout << "\n Sorted: \n";
+
+    for (int i = 0; i < sortedData.size(); i++) {
+        cout << sortedData[i];
+        cout << ", ";
+    }
     return 0;
 }

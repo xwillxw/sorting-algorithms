@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/willow/Documents/GitHub/sorting-algorithms/src/bubble.cpp" "CMakeFiles/add.dir/src/bubble.cpp.o" "gcc" "CMakeFiles/add.dir/src/bubble.cpp.o.d"
   "/Users/willow/Documents/GitHub/sorting-algorithms/src/main.cpp" "CMakeFiles/add.dir/src/main.cpp.o" "gcc" "CMakeFiles/add.dir/src/main.cpp.o.d"
   )
 

@@ -129,30 +129,6 @@ add/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/build
 .PHONY : add/fast
 
-src/bubble.o: src/bubble.cpp.o
-.PHONY : src/bubble.o
-
-# target to build an object file
-src/bubble.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/src/bubble.cpp.o
-.PHONY : src/bubble.cpp.o
-
-src/bubble.i: src/bubble.cpp.i
-.PHONY : src/bubble.i
-
-# target to preprocess a source file
-src/bubble.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/src/bubble.cpp.i
-.PHONY : src/bubble.cpp.i
-
-src/bubble.s: src/bubble.cpp.s
-.PHONY : src/bubble.s
-
-# target to generate assembly for a file
-src/bubble.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/src/bubble.cpp.s
-.PHONY : src/bubble.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -186,9 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... add"
-	@echo "... src/bubble.o"
-	@echo "... src/bubble.i"
-	@echo "... src/bubble.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

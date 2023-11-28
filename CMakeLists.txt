@@ -11,5 +11,4 @@ add_executable(
     add
     src/sorts.h
     src/main.cpp
-    src/bubble.cpp
 )
